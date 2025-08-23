@@ -93,4 +93,48 @@ main section{
 margin: 116px 0px;
 
 }
+
+.review{
+  text-align: center;
+}
+.reviewer-dp{
+      width: 40px;
+    height: 40px;
+    
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.reviewer-name{
+  display: inline-block;
+  text-align: left;
+}
+
+.reviewers{
+  display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.rev{
+      text-align: left;
+    padding: 24px;
+    background: white;
+    background-size: cover;
+    border-radius: 14px;
+
+}
+.rev-text{
+  font-size: 24px;
+}
+.rev-message{
+  font-size: 16px;
+}
+.reviewer-data{
+      display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+  
+}
 /*footer styles*/
