@@ -29,10 +29,21 @@ ul{
  
   margin: 0px 150px;
 }
+.text-primary{
+  font-size: 42px;
+  font-weight: bold;
+}
+.text-secondary{
+font-size: 24px;
+font-weight:400;
+opacity: 50%;
+color: #252432;
+}
 /*header styles*/
 header{
   text-align: center;
-  background: url(../Assets/Hero-bg.png) no-repeat top;
+  background: url(../Assets/Hero-bg.png) no-repeat center;
+  background-size: cover;
 }
 .banner{
       max-width: 905px;
@@ -62,5 +73,22 @@ header{
       }
 
 /*main styles*/
+.action-img{
+  border-radius: 48px;
+}
 
+.action {
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-text{
+  max-width: 517px;
+}
+main section{
+margin: 116px 0px;
+
+}
 /*footer styles*/
