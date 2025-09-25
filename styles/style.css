@@ -5,6 +5,16 @@
   
   font-style: normal;
 }
+
+
+
+
+.inter-primary {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
 body{
    margin: 0px;
    background-color: #F5F8FF;
@@ -24,6 +34,7 @@ ul{
   border-radius: 10px;
   background-color: #4E47FF;
   color: white;
+  font-weight: bold;
 
 }
 .max-width{
@@ -85,9 +96,16 @@ header{
     align-items: center;
     margin-top: 116px;
 }
-
+.action-text h3{
+  margin: 0px;
+}
 .action-text{
-  max-width: 517px;
+      max-width: 517px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
 }
 main section{
 margin: 116px 0px;
@@ -169,9 +187,30 @@ margin: 116px 0px;
 
 /*focus*/
 
-.focus{
-  text-align: center;
+.focus h3,p{
+  margin: 0;
 }
+.focus h3{
+  font-size: 50px;
+  font-weight: bold;
+}
+  .focus {
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 71px 0px;
+    margin: 137px 0px;
+}
+.focus p{
+  color: #000000;
+  opacity: 50%;
+}
+
 .focus img{
   border-radius: 48px;
 }
@@ -180,3 +219,34 @@ margin: 116px 0px;
   text-align: center;
 } */
 /*footer styles*/
+
+/*portfolio numbers*/
+.portfolio{
+  margin-top:116px;
+  line-height: auto;
+}
+.portfolio h1{
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+}
+.portfolio-numbers{
+ 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.portfolio-numbers h1{
+  font-family: ;
+  font-size: 80px;
+  margin: 0px;
+  padding: 0px;
+  color: #4E47FF;
+}
+.portfolio-numbers p{
+font-weight: 400;
+font-size: 20px;
+    opacity: 50%;
+    color: #000000;
+    margin: 0;
+}
