@@ -1,4 +1,4 @@
-
+/*Primary font classes*/
 .raleway-primary {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -15,6 +15,10 @@
   
   font-style: normal;
 }
+
+
+/*Website Styles*/
+
 body{
    margin: 0px;
    background-color: #F5F8FF;
@@ -49,7 +53,7 @@ ul{
 .text-secondary{
 font-size: 24px;
 font-weight:400;
-opacity: 50%;
+opacity: 75%;
 color: #252432;
 }
 /*header styles*/
@@ -58,32 +62,34 @@ header{
   background: url(../Assets/Hero-bg.png) no-repeat center;
   background-size: cover;
 }
+
 .banner{
-      max-width: 905px;
+    max-width: 905px;
     margin: auto;
-    padding: 0px 0px 152px 0px;
+    padding: 0px 0px 230px 0px;
   
 }
 .logo{
-  font-size: 34px;
-    color: #4E47FF;
-    font-weight: 800;
+  font-size: 40px;
+  color: #4E47FF;
+  font-weight: 900;
 }
 
       /*navbar styles*/
-      nav {
+nav {
          
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-      }
+}
 
 
-      .header-message{
-        font-size: 65px;
-        font-weight: bold;
-      }
+.header-message{
+  font-size: 72px;
+  font-weight: bold;
+  margin-top: 115px;
+}
 
 /*main styles*/
 .action-img{
@@ -91,23 +97,25 @@ header{
 }
 
 .action {
-    display: flex
-;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 116px;
 }
+
 .action-text h3{
   margin: 0px;
 }
+
 .action-text{
-      max-width: 517px;
+    max-width: 517px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
 }
+
 main section{
 margin: 116px 0px;
 
@@ -128,6 +136,7 @@ margin: 116px 0px;
 .num {
   font-size: 80px;
 }
+
 .letter {
   font-size: 80px;
   position: relative;
@@ -139,14 +148,16 @@ margin: 116px 0px;
 .review{
   text-align: center;
 }
+
 .reviewer-dp{
-      width: 40px;
+    width: 40px;
     height: 40px;
     
     border-radius: 50%;
     object-fit: cover;
 
 }
+
 .reviewer-name{
   display: inline-block;
   text-align: left;
@@ -154,12 +165,12 @@ margin: 116px 0px;
 
 .reviewers{
   display: flex;
-    justify-content: space-between;
-    gap: 20px;
+  justify-content: space-between;
+  gap: 20px;
 
 }
 .rev{
-      text-align: left;
+    text-align: left;
     padding: 24px;
     background-color: #FFFFFF80;
     background-size: cover;
@@ -168,12 +179,15 @@ margin: 116px 0px;
     box-shadow:inset 0 0 0 1px #F2EDED;
 
 }
+
 .rev-text{
-  font-size: 24px;
+  font-size: 30px;
 }
+
 .rev-message{
-  font-size: 16px;
+  font-size: 22px;
 }
+
 .reviewer-data{
       display: flex;
     justify-content: flex-start;
@@ -181,6 +195,17 @@ margin: 116px 0px;
     gap: 12px;
   
 }
+
+.reviewer-data p{
+  color: #B7B7B7;
+
+}
+.reviewer-name{
+  color: #757575;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .review-title{
   margin-bottom:50px;
 }
@@ -188,15 +213,17 @@ margin: 116px 0px;
 
 /*focus*/
 
-.focus h3,p{
+.focus h3,.focus p{
   margin: 0;
 }
+
 .focus h3{
   font-size: 50px;
   font-weight: bold;
 }
-  .focus {
-   text-align: center;
+
+.focus {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,6 +234,7 @@ margin: 116px 0px;
     padding: 71px 0px;
     margin: 137px 0px;
 }
+
 .focus p{
   color: #000000;
   opacity: 50%;
@@ -215,28 +243,28 @@ margin: 116px 0px;
 .focus img{
   border-radius: 48px;
 }
-/* .focus button{
-  display: block;
-  text-align: center;
-} */
-/*footer styles*/
+
 
 /*portfolio numbers*/
 .portfolio{
   margin-top:116px;
   line-height: auto;
 }
+
 .portfolio h1{
   font-size: 38px;
   font-weight: bold;
   color: #252432;
 }
+
 .portfolio-numbers{
  
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
+
+
 .portfolio-numbers h1{
   font-family: ;
   font-size: 80px;
@@ -244,6 +272,7 @@ margin: 116px 0px;
   padding: 0px;
   color: #4E47FF;
 }
+
 .portfolio-numbers p{
 font-weight: 400;
 font-size: 20px;
@@ -252,18 +281,28 @@ font-size: 20px;
     margin: 0;
 }
 /*Contact*/
+
 .contact{
 
-display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 71px 0px;
 }
+
 .contact-text{
-  font-size: 97px;
+  font-size: 130px;
   font-weight: bold;
 
 }
-.contact-form input[type='text'], .contact-form input[type=email], .contact-form textarea{
+
+.contact-form{
+ display: flex;
+ width: 525px;
+    flex-direction: column;
+}
+
+.contact-form input[type='text'], .contact-form input[type=email]{
        height: 43px;
     border-radius: 10px;
     background-color: #FFFFFF;
@@ -276,11 +315,76 @@ display: flex;
     font-size: 20px;
     color: #000000;
     opacity: 50%;
-    border: 1px solid #D6DDED;
+    border: 2px solid #D6DDED;
 
 }
+
+
+#text-area[type='text'] {
+  
+         height: 135px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    width: -webkit-fill-available;
+    padding: 20px 0px 20px 32px;
+    margin-bottom: 24px;
+    border: none;
+    margin: 10px 0px 20px 0px;
+    font-size: 20px;
+    color: #000000;
+    opacity: 50%;
+    border: 2px solid #D6DDED;
+}
+
 .contact-form label{
   font-size: 18px;
   font-weight: 500;
   
+}
+
+
+.contact-form button{
+  padding: 20px;
+}
+
+/*footer*/
+footer{
+  background-color: #FFFFFF;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  text-align: center;
+  
+}
+
+
+.footer-elements{
+  width: 531px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+     margin: auto; 
+   padding: 105px 0px;
+
+}
+
+.footer-msg{
+      font-size: 105px;
+    font-weight: 900;
+    color: #4E47FF;
+
+}
+footer p, ul{
+  color: #8987A1;
+ 
+
+}
+.footer-nav{
+
+      display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 20px 0px;
 }
